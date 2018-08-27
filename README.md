@@ -6,7 +6,7 @@
         2. pod 'DNPageView'    
 ### 三、具体使用代码    
        1. 导入头文件 .... #import "DNPageView.h"    
-       2. ````    
+       2.
        DNPageView * pageView = [[DNPageView alloc] initWithTitle:[self segmentTitleArray]
                                                    controller:[self controllersArray]];
        [self.view addSubview:pageView];
@@ -15,6 +15,6 @@
        
               make.edges.mas_equalTo(self.view);
        }];   
-    ````   
+     
 ### 四、Demo API 来源    
        [简书:有梦想的程序丶猿（免费开放接口API）](https://www.jianshu.com/p/e6f072839282)
