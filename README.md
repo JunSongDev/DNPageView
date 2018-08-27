@@ -5,7 +5,7 @@
         1. 手动下载，将 DNPageView 文件夹拖入项目工程
         2. pod 'DNPageView'    
 ### 三、具体使用代码    
-       1. 导入头文件 .... #import "DNPageView.h"    
+       1. 导入头文件 #import "DNPageView.h"    
        2. 分别传入标题数组和控制器数组
        DNPageView * pageView = [[DNPageView alloc] initWithTitle:[self segmentTitleArray]
                                                    controller:[self controllersArray]];
